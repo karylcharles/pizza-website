@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <div class="register-container">
+    <!-- -->
+    <!-- Header-->
+    <!-- -->    
+        <header class="sidebar">
+            <div>
+                <img src="../Images/pizza-logo1.png" alt="pizza-logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="About-Us.html">ABOUT US</a></li>
+                    <li><a href="Contact-page.html">CONTACT US</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="Register.html">REGISTER</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Karyl's Pizza Website</p>
+                <p>&copy;Copyright 2021 </p>
+            </div>
+        </header>
+    <!-- -->
+    <!-- Register-->
+    <!-- -->
+        <section class="register-form">
+            <div class="account-heading">
+                <h1>MY ACCOUNT</h1>
+            </div>
+            <div class="register-wrapper">
+                <div class="register-title">
+                    <h2>Register</h2>
+                </div>
+                <div class="register-form-details">
+                    <form action="confirmation-page.html">
+                        <fieldset><legend><strong>Basic</strong></legend>    
+                            <input type="text" name="username" placeholder="Username">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="password" name="password" placeholder="Password">
+                        </fieldset>
+                        <fieldset><legend><strong>Personal</strong></legend>
+                            <p class="first-para">Please enter valid information</p>
+                            <input type="text" name="name" placeholder="First Name">
+                            <input type="text" name="name" placeholder="Last Name">    
+                            <div class="select-wrapper">
+                                <label for="country">Country</label>
+                            <select id="country">
+                                <option>Saint Lucia</option>
+                                <option>Trinidad & Tobago</option>
+                                <option>Martinique</option>
+                                <option>Grenada</option>
+                                <option>Barbados</option>
+                                <option>Dominica</option>
+                                <option>Saint Vincent</option>
+                            </select>
+                            </div>
+                            <input type="text" name="address" placeholder="Address">
+                            <input type="tel" name="phone" placeholder="Phone">
+                            <div class="checkboxes">
+                                <p>Payment method:</p>
+                                <div class="checkbox-wrapper">
+                                    <div class="checkbox-container">
+                                        <label for="debit">debit card</label>
+                                        <input type="checkbox" id="debit" name="payments" value="debit card">
+                                    </div>
+                                    <div class="checkbox-container">
+                                        <label for="credit">credit card</label>
+                                        <input type="checkbox" id="credit" name="payments" value="credit card">
+                                    </div>
+                                    <div class="checkbox-container">
+                                        <label for="paypal">paypal</label>
+                                        <input type="checkbox" id="paypal" name="payments" value="paypal">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="radios">
+                                <p>Gender:</p>
+                                <div class="radio-wrapper">
+                                    <div class="radio-container">
+                                        <label for="male">Male</label>
+                                        <input type="radio" id="male" name="gender" value="male">
+                                    </div>
+                                    <div class="radio-container">
+                                        <label for="female">Female</label>
+                                        <input type="radio" id="female" name="gender" value="female">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="second-para">Your personal data will not be shared and will only be used for data keeping</p>
+                            <div class="register-button">
+                                <input type="submit" value="REGISTER">
+                                <input type="reset" value="RESET">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!-- -->
+    <!-- Footer-->
+    <!-- -->
+        <footer class="footer-sect">
+            <div class="footer-container">
+                <div class="first">
+                    <img src="..//Images/footer-logo.png" alt="footer-logo">
+                    <p>Carellie Gardens, Castries, Saint Lucia</p>
+                    <p>Telephone: +1 758-753-8867</p>
+                    <p>Email: karylpizza@gmail.com</p>
+                </div>
+                <div class="second">
+                    <h4>OPENING HOURS</h4>
+                    <table>
+                        <tr>
+                            <th>Mon-Wed:</th>
+                            <td>6:00am - 10:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Thur-Fri:</th>
+                            <td>6:00am - 10:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Sat:</th>
+                            <td>6:00am - 12:00pm</td>
+                        </tr>
+                        <tr>
+                            <th>Sunday:</th>
+                            <td>CLOSED</td>
+                        </tr>							
+                    </table>
+                </div>
+                <div class="third">
+                    <h4>SITE LINKS</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="./Register.html">Register</a></li>
+                            <li><a href="./login.html">Login</a></li>
+                            <li><a href="./About-Us.html">About Us</a></li>
+                            <li><a href="./Contact-page.html">Contact Us</a></li>								
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
